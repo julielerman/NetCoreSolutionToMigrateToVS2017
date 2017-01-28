@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FBE1457-6FE5-4C21-A48F-B22A1C3A2BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFD484D1-8CF0-4702-9A68-BCDFADFCC17F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SamuraiAppCore.Domain", "src\SamuraiAppCore.Domain\SamuraiAppCore.Domain.xproj", "{46C3FA55-AAFC-4122-9B81-7D008E6AF7CB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SamuraiAppCore.Data", "src\SamuraiAppCore.Data\SamuraiAppCore.Data.xproj", "{891163A1-B18A-42C1-9D2C-4BB7CBFFAE05}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SamuraiWebApi", "src\SamuraiWebApi\SamuraiWebApi.xproj", "{C02BA255-76AB-4ACD-8B25-AEF6A29BC470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B492412D-CF7D-4695-AAC3-F0041E3DD2D2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SamuraiTests", "SamuraiTests\SamuraiTests.xproj", "{4581CB0A-FD9B-43F1-90D3-89519D0AB6D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46C3FA55-AAFC-4122-9B81-7D008E6AF7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C3FA55-AAFC-4122-9B81-7D008E6AF7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C3FA55-AAFC-4122-9B81-7D008E6AF7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C3FA55-AAFC-4122-9B81-7D008E6AF7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{891163A1-B18A-42C1-9D2C-4BB7CBFFAE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891163A1-B18A-42C1-9D2C-4BB7CBFFAE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891163A1-B18A-42C1-9D2C-4BB7CBFFAE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891163A1-B18A-42C1-9D2C-4BB7CBFFAE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02BA255-76AB-4ACD-8B25-AEF6A29BC470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02BA255-76AB-4ACD-8B25-AEF6A29BC470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02BA255-76AB-4ACD-8B25-AEF6A29BC470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02BA255-76AB-4ACD-8B25-AEF6A29BC470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4581CB0A-FD9B-43F1-90D3-89519D0AB6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4581CB0A-FD9B-43F1-90D3-89519D0AB6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4581CB0A-FD9B-43F1-90D3-89519D0AB6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4581CB0A-FD9B-43F1-90D3-89519D0AB6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46C3FA55-AAFC-4122-9B81-7D008E6AF7CB} = {5FBE1457-6FE5-4C21-A48F-B22A1C3A2BAA}
+		{891163A1-B18A-42C1-9D2C-4BB7CBFFAE05} = {5FBE1457-6FE5-4C21-A48F-B22A1C3A2BAA}
+		{C02BA255-76AB-4ACD-8B25-AEF6A29BC470} = {5FBE1457-6FE5-4C21-A48F-B22A1C3A2BAA}
+		{4581CB0A-FD9B-43F1-90D3-89519D0AB6D4} = {B492412D-CF7D-4695-AAC3-F0041E3DD2D2}
+	EndGlobalSection
+EndGlobal

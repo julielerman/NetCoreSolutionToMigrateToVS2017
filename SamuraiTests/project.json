@@ -1,0 +1,22 @@
+﻿{
+    "version": "1.0.0-*",
+    "testRunner": "mstest",
+
+    "dependencies": {
+        "Microsoft.NETCore.App": {
+            "version": "1.1.0",
+            "type": "platform"
+        },
+        "SamuraiAppCore.Data": "2.0.0-*",
+        "SamuraiAppCore.Domain": "2.0.0-*",
+        "Microsoft.EntityFrameworkCore.InMemory": "1.1.0",
+        "MSTest.TestFramework": "1.0.8-rc",
+        "dotnet-test-mstest": "1.1.2-preview"
+    },
+
+    "frameworks": {
+        "netcoreapp1.0": {
+            "imports": "dnxcore50"
+        }
+    }
+}
